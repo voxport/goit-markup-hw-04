@@ -65,7 +65,7 @@ header {
 }
 
 .navigation {
-margin-right: 331px;    
+margin-right: 305px;    
 }
 
 .navigation-list {
@@ -99,7 +99,7 @@ margin-right: 331px;
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.14; 
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 .contacts-item a {
@@ -109,6 +109,34 @@ color: #757575;
 .contacts-item:last-child {
     margin-right: 0px;
 }
+
+.icon-mail {
+    /* display: block; */
+    padding: 0px;
+    width: 16px;
+    height: 12px;
+    fill: #757575;
+    margin-right: 10px;
+}
+
+.icon-smartphone {
+    padding: 0px;
+    width: 16px;
+    height: 12px;
+    fill: #757575;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* link style */
 .link-style:hover {
