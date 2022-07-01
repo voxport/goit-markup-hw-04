@@ -92,6 +92,7 @@ margin-right: 305px;
 .contacts {
     display: flex;
     font-weight: 500;
+    align-items: center;
 }
 
 .contacts-item {
@@ -111,20 +112,18 @@ color: #757575;
 }
 
 .icon-mail {
-    /* display: block; */
-    padding: 0px;
+    
     width: 16px;
     height: 12px;
-    fill: #757575;
     margin-right: 10px;
+    fill: #757575;;
 }
 
 .icon-smartphone {
-    padding: 0px;
-    width: 16px;
-    height: 12px;
-    fill: #757575;
+    width: 10px;
+    height: 16px;
     margin-right: 10px;
+    fill: #757575;
 }
 
 
@@ -159,9 +158,14 @@ color: #757575;
 
 /* INDEX PAGE */
 .hero-background {
-    background-color: var(--main-box-background-color);
+    /* background-color: var(--main-box-background-color); */
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: url(../images/index-photo/Img-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -193,6 +197,34 @@ color: #757575;
     background-color: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
+}
+
+.benefits-icon-background {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    background-size: cover;
+    margin-bottom: 30px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.benefits-icon-group {
+    width: 65.32px;
+    height: 70px;
+}
+
+.benefits-icon-clock {
+    width: 66.96px;
+    height: 70px;
+}
+
+.benefits-icon-computer {
+    width: 70px;
+    height: 53.69px;
 }
 
 .benefits-title {
