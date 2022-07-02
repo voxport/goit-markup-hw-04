@@ -19,80 +19,87 @@
   </head>
   <body>
     <!-- Top-Line -->
-    <header>
-      <div class="container header-container">
-        <a class="logo-header" href="index.html"
-          ><span style="color: #2196f3">Web</span>Studio</a
-        >
+    <header class="header">
+      <div class="container">
+        <nav class="header-nav">
+          <a class="logo" href="./index.html"><span class="accent">Web</span>Studio</a>
 
-        <nav class="navigation">
-          <ul class="navigation-list">
-            <li class="navigation-item">
-              <a class="link-style" href="./index.html">Студия</a>
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./index.html">Студия</a>
             </li>
-            <li class="navigation-item">
-              <a class="link-style current-link" href="./portfolio.html">Портфолио</a>
+            <li class="header-nav-item">
+              <a class="header-nav-link current" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="navigation-item">
-              <a class="link-style" href="#">Контакты</a>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="contacts">
+        <ul class="contacts-list">
           <li class="contacts-item">
-            <a class="link-style" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            <a class="contacts-link" href="mailto:info@devstudio.com">
+              <svg class="contacts-icon" width="16" height="12">
+                <use href="./images/symbol-defs.svg#icon-mail"></use>
+              </svg>
+
+              info@devstudio.com</a
             >
           </li>
+
           <li class="contacts-item">
-            <a class="link-style" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="contacts-link" href="tel:+380961111111">
+              <svg class="contacts-icon" width="10" height="16">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+              </svg>
+
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
     </header>
 
     <main>
-      <div class="section container">
-        <ul class="button-box">
-          <li class="button-list">
-            <button class="button-item" type="button">Все</button>
-          </li>
-          <li class="button-list">
-            <button class="button-item" type="button">Веб-сайты</button>
-          </li>
-          <li class="button-list">
-            <button class="button-item" type="button">Приложения</button>
-          </li>
-          <li class="button-list">
-            <button class="button-item" type="button">Дизайн</button>
-          </li>
-          <li class="button-list">
-            <button class="button-item" type="button">Маркетинг</button>
-          </li>
-        </ul>
-      
-        <div>
+      <section class="section portfolio">
+        <div class="container">
+          <h1 class="visually-hidden">Портфолио</h1>
+          <ul class="button-box">
+            <li class="button-list">
+              <button class="button-item active" type="button">Все</button>
+            </li>
+            <li class="button-list">
+              <button class="button-item" type="button">Веб-сайты</button>
+            </li>
+            <li class="button-list">
+              <button class="button-item" type="button">Приложения</button>
+            </li>
+            <li class="button-list">
+              <button class="button-item" type="button">Дизайн</button>
+            </li>
+            <li class="button-list">
+              <button class="button-item" type="button">Маркетинг</button>
+            </li>
+          </ul>
+
           <ul class="portfolio-box">
             <li class="portfolio-block">
-              <img
-                src="./images/portfolio-img/img-01.jpg"
-                alt="Веб-сайт"
-                width="370"
-                height="294"
-              />
-              <div class="portfolio-frame">
-                <h3 class="portfolio-name">Технокряк</h3>
-                <p>Веб-сайт</p>
-              </div>
+              <a class="portfolio-link" href="#">
+                <img
+                  src="./images/portfolio-img/img-01.jpg"
+                  alt="Веб-сайт"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-frame">
+                  <h3 class="portfolio-name">Технокряк</h3>
+                  <p>Веб-сайт</p>
+                </div>
+              </a>
             </li>
             <li class="portfolio-block">
-              <img
-                src="./images/portfolio-img/img-02.jpg"
-                alt="Дизайн"
-                width="370"
-                height="294"
-              />
+              <img src="./images/portfolio-img/img-02.jpg" alt="Дизайн" width="370" height="294" />
               <div class="portfolio-frame">
                 <h3 class="portfolio-name">Постер New Orlean vs Golden Star</h3>
                 <p>Дизайн</p>
@@ -147,12 +154,7 @@
               </div>
             </li>
             <li class="portfolio-block">
-              <img
-                src="./images/portfolio-img/img-07.jpg"
-                alt="Дизайн"
-                width="370"
-                height="294"
-              />
+              <img src="./images/portfolio-img/img-07.jpg" alt="Дизайн" width="370" height="294" />
               <div class="portfolio-frame">
                 <h3 class="portfolio-name">Издание Limited Edition</h3>
                 <p>Дизайн</p>
@@ -184,23 +186,16 @@
             </li>
           </ul>
         </div>
-  
-      </div>
+      </section>
 
       <!-- Section List Item  -->
-
-      
     </main>
 
     <!-- Footer-Block -->
     <footer class="footer">
       <div class="container">
-        <a class="logo-footer" href="index.html"
-          ><span style="color: #2196f3">Web</span>Studio</a
-        >
-        <address class="address-footer">
-          г. Киев, пр-т Леси Украинки, 26
-        </address>
+        <a class="logo-footer" href="index.html"><span style="color: #2196f3">Web</span>Studio</a>
+        <address class="address-footer">г. Киев, пр-т Леси Украинки, 26</address>
         <ul class="footer-links">
           <li><a href="mailto:info@example.com">info@example.com</a></li>
           <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
