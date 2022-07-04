@@ -399,19 +399,28 @@
 
   .clients-item-logo {
     fill:#afb1b8;
+    border-radius: 4px;
+  }
+
+  .clients-item-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 170px;
     height: 92px;
-    padding: 16px 32px;
     border: 1px #afb1b8 solid;
-    border-radius: 4px;
+  }
+
+  .clients-item-link:hover,
+  .clients-item-link:focus {
+   border: 1px var(--aceent-color) solid;
+   fill: var(--aceent-color);
   }
 
   .clients-item-logo:hover,
   .clients-item-logo:focus {
-    border-color: var(--aceent-color);
     fill: var(--aceent-color);
   }
-
  
   /* PORTFOLIO PAGE */
   .button-box {
@@ -574,18 +583,27 @@
     padding-bottom: 9px;
 }
 
-.footer-left-block {
+.footer-container {
   display: flex;
   align-items: center;
 }
 
-.footer-left-block .footer-contacts-block {
+.footer-container .footer-contacts-block {
   margin-right: 70px;
 }
 
 .footer-contacts-link:hover,
 footer-contacts-link:focus {
   color: var(--aceent-color);
+}
+
+.footer-social-action {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  margin-bottom: 20px;
 }
 
 
