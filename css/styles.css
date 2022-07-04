@@ -51,6 +51,7 @@
     max-width: 100%;
     height: auto;
   }
+  
   /* Свойства для обнуления курсива у address */
   
   address {
@@ -291,7 +292,7 @@
   .team-social-item:not(:last-child) {
     margin-right: 10px;
   }
-  
+
   .team-social-link {
     display: flex;
     align-items: center;
@@ -299,7 +300,6 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-  
     color: #afb1b8;
   }
   
@@ -370,7 +370,6 @@
     margin-bottom: 16px;
   }
 
-
   /* clients */
   .clients-title {
     font-size: 36px;
@@ -409,18 +408,20 @@
     width: 170px;
     height: 92px;
     border: 1px #afb1b8 solid;
+    color: #afb1b8;;
+  }
+
+  .clients-item-logo {
+   fill: currentColor;
   }
 
   .clients-item-link:hover,
   .clients-item-link:focus {
-   border: 1px var(--aceent-color) solid;
-   fill: var(--aceent-color);
+    fill: #afb1b8;
+    color: var(--aceent-color);
+    border: 1px var(--aceent-color) solid;
   }
 
-  .clients-item-logo:hover,
-  .clients-item-logo:focus {
-    fill: var(--aceent-color);
-  }
  
   /* PORTFOLIO PAGE */
   .button-box {
